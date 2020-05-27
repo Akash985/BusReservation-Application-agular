@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "BusReservationApplication"
+    }
+  },
+  "defaultProject": "BusReservationApplication",
+  "cli": {
+    "analytics": "03c6ba77-3dc3-4c95-9980-f75f30eb7fe2"
+  }
 }
