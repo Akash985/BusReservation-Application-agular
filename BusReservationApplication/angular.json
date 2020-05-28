@@ -123,10 +123,6 @@
   },
   "defaultProject": "BusReservationApplication",
   "cli": {
-<<<<<<< HEAD
     "analytics": false
-=======
-    "analytics": "03c6ba77-3dc3-4c95-9980-f75f30eb7fe2"
->>>>>>> ffee7552ce81ccadf45db1f7ee62a77fe34732ae
   }
 }
