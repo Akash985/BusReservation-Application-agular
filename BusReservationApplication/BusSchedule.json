@@ -1,0 +1,129 @@
+{"BusSchedule":
+    [
+       
+        {
+            "id":1,
+            "busName":"Mumbai-Pune",
+            "busNumber":"MH04NX1356",
+            "startStop": "Mumbai",
+            "endStop":"Pune",
+            "boardingStops":["Mumbai", "Panvel", "Lonavala"],
+            "droppingStops":["Panvel", "Lonavala", "Pune"],
+            "numberOfSeats":20,
+            "seatArrangement":[],
+            "conductorName":"Dan Bravo",
+            "departTime":"11:30 AM",
+            "dateOfDept":"10/06/2020"
+        },
+            
+        {
+            "id":2,
+            "busName":"Panvel-Satara",
+            "busNumber":"MH05NX1487",
+            "startStop": "Panvel",
+            "endStop":"Satara",
+            "boardingStops":["Panvel", "Lonavala", "Pune"],
+            "droppingStops":["Lonavala", "Pune", "Satara"],
+            "numberOfSeats":20,
+            "seatArrangement":[],
+            "conductorName":"Bhuvan Signh",
+            "departTime":"1:30 PM",
+            "dateOfDept":"10/06/2020"
+        }  ,
+    
+        {
+            "id":3,
+            "busName":"Panvel-Pune",
+            "busNumber":"MH05TX1156",
+            "startStop": "Panvel",
+            "endStop":"Pune",
+            "boardingStops":["Panvel", "Lonavala"],
+            "droppingStops":["Lonavala", "Pune"],
+            "numberOfSeats":20,
+            "seatArrangement":[],
+            "conductorName":"Kylo ren",
+            "departTime":"1:00 PM",
+            "dateOfDept":"11/06/2020"
+        },
+    
+        {
+            "id":4,
+            "busName":"Panvel-Kolhapur",
+            "busNumber":"MH0aNX5662",
+            "startStop": "Panvel",
+            "endStop":"Kolhapur",
+            "boardingStops":["Mumbai", "Panvel", "Lonavala"],
+            "droppingStops":["Panvel", "Lonavala", "Pune"],
+            "numberOfSeats":20,
+            "seatArrangement":[],
+            "conductorName":"Han Solo",
+            "departTime":"3:30 PM",
+            "dateOfDept":"11/06/2020"
+        },
+    
+    
+    {
+        "id":5,
+        "busName":"Mumbai-Pune",
+        "busNumber":"MH04NX1356",
+        "startStop": "Mumbai",
+        "endStop":"Pune",
+        "boardingStops":["Mumbai", "Panvel", "Lonavala"],
+        "droppingStops":["Panvel", "Lonavala", "Pune"],
+        "numberOfSeats":20,
+        "seatArrangement":[],
+        "conductorName":"Dan Bravo",
+        "departTime":"11:30 AM",
+        "dateOfDept":"12/06/2020"
+    },
+        
+    {
+        "id":6,
+        "busName":"Panvel-Satara",
+        "busNumber":"MH05NX1487",
+        "startStop": "Panvel",
+        "endStop":"Satara",
+        "boardingStops":["Panvel", "Lonavala", "Pune"],
+        "droppingStops":["Lonavala", "Pune", "Satara"],
+        "numberOfSeats":20,
+        "seatArrangement":[],
+        "conductorName":"Bhuvan Signh",
+        "departTime":"1:30 PM",
+        "dateOfDept":"12/06/2020"
+    } ,
+    
+    
+    
+    
+    {
+        "id":7,
+        "busName":"Panvel-Pune",
+        "busNumber":"MH05TX1156",
+        "startStop": "Panvel",
+        "endStop":"Pune",
+        "boardingStops":["Panvel", "Lonavala"],
+        "droppingStops":["Lonavala", "Pune"],
+        "numberOfSeats":20,
+        "seatArrangement":[],
+        "conductorName":"Kylo ren",
+        "departTime":"1:00 PM",
+        "dateOfDept":"13/06/2020"
+    },
+    
+    {
+        "id":8,
+        "busName":"Panvel-Kolhapur",
+        "busNumber":"MH0aNX5662",
+        "startStop": "Panvel",
+        "endStop":"Kolhapur",
+        "boardingStops":["Mumbai", "Panvel", "Lonavala"],
+        "droppingStops":["Panvel", "Lonavala", "Pune"],
+        "numberOfSeats":20,
+        "seatArrangement":[],
+        "conductorName":"Han Solo",
+        "departTime":"3:30 PM",
+        "dateOfDept":"13/06/2020"
+    }
+    
+    ]
+    }

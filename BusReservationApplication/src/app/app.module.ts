@@ -1,26 +1,23 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-<<<<<<< HEAD
-import { SearchBusComponent } from './search-bus/search-bus.component';
-=======
 import { SignupComponent } from './signup/signup.component';
->>>>>>> ffee7552ce81ccadf45db1f7ee62a77fe34732ae
+import { SearchBusComponent } from './search-bus/search-bus.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-<<<<<<< HEAD
-    SearchBusComponent
-=======
-    SignupComponent
->>>>>>> ffee7552ce81ccadf45db1f7ee62a77fe34732ae
+    SignupComponent,
+    SearchBusComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

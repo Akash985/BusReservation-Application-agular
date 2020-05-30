@@ -1,1 +1,43 @@
 <p>search-bus works!</p>
+
+<!-- busName: String;
+busNumber:String;
+startStop:String;
+endStop:String;
+boardingStops:String[];
+droppingStops:String[];
+numberOfSeats :number;
+seatArrangement:String[];skiped
+conductorName:String;
+departTime:String;
+dateOfDept: String; -->
+
+<table border="1">
+    <tr>
+        <th>BusId</th>
+        <th>BusNumber</th>
+        <th>BusName</th>
+        <th>Starting point</th>
+        <th>Ending point</th>
+        <th>BoardingStops</th>
+        <th>DroppingStops</th>
+        <th>NumberOfSeats</th>
+        <th>conductorName</th>
+        <th>Departure Time</th>
+        <th>Date of Departure</th>
+    </tr>
+    <tr *ngFor="let bus of buses">
+        <td>{{bus.id}}  </td>
+        <td>{{bus.busNumber}}  </td>
+        <td>{{bus.busName}}  </td>
+        <td>{{bus.startStop}}  </td>
+        <td>{{bus.endStop}}  </td>
+        <td>{{bus.boardingStops}}  </td>
+        <td>{{bus.droppingStops}}  </td>
+        <td>{{bus.numberOfSeats}}  </td>
+        <td>{{bus.conductorName}}  </td>
+        <td>{{bus.departTime}}  </td>
+        <td>{{bus.dateOfDept}}   </td>
+    </tr>
+
+</table>

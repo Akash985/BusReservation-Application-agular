@@ -1,4 +1,5 @@
 export class Bus{
+    id:number;
     busName: String;
     busNumber:String;
     startStop:String;
